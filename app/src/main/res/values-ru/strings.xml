@@ -1,0 +1,187 @@
+<resources>
+    <!-- Bottom Navigation -->
+    <string name="nc_bottom_navigation_title_conversations">Беседы</string>
+    <string name="nc_bottom_navigation_title_contacts">Контакты</string>
+    <string name="nc_bottom_navigation_title_settings">Параметры</string>
+
+    <!-- Server selection -->
+    <string name="nc_server_url">Адрес сервера</string>
+    <string name="nc_server_not_installed">Завершите установку %1$s</string>
+    <string name="nc_server_db_upgrade_needed">Обновите базу данных %1$s</string>
+    <string name="nc_server_maintenance">Сервер %1$s находится в режиме обслуживания</string>
+    <string name="nc_server_version">Работа приложения %1$s возможна только с серверами %2$s версии 13 или старше</string>
+    <string name="nc_server_import_account_plain">Импортировать учётную запись</string>
+    <string name="nc_server_import_accounts_plain">Импортировать учётные записи</string>
+    <string name="nc_server_import_account">Импортировать учётную запись из приложения %1$s </string>
+    <string name="nc_server_import_accounts">Импортировать учётные записи из приложения %1$s </string>
+    <string name="nc_server_failed_to_import_account">Не удалось импортировать выбранную учётную запись</string>
+    <string name="nc_Server_account_imported">Выбранная учётная запись теперь доступна</string>
+    <string name="nc_get_from_provider">Нет своего сервера?\nНажмите здесь чтобы заказать у провайдера</string>
+
+    <!-- Account verification -->
+    <string name="nc_display_name_fetched">Отображаемое имя получено</string>
+    <string name="nc_push_disabled">Всплывающие уведомления отключены</string>
+    <string name="nc_capabilities_failed">Не удалось получить список поддерживаемых протоколов</string>
+    <string name="nc_display_name_not_fetched">Не удалось получить отображаемое имя, продолжение невозможно</string>
+    <string name="nc_nextcloud_talk_app_installed">Найдено приложение %1$s</string>
+    <string name="nc_nextcloud_talk_app_not_installed">Приложение %1$s не установлено на сервере. Действие отменено.</string>
+    <string name="nc_display_name_stored">Отображаемое имя сохранено</string>
+    <string name="nc_display_name_not_stored">Не удалось сохранить отображаемое имя, продолжение невозможно</string>
+
+    <string name="nc_never">Никогда не использовался</string>
+    <string name="nc_search">Поиск</string>
+
+    <string name="nc_certificate_dialog_title">Проверьте сертификат</string>
+    <string name="nc_certificate_dialog_text">Доверять неизвестному сертификату SSL: выпущен %1$s для %2$s, действителен с %3$s по %4$s?</string>
+    <string name="nc_yes">Да</string>
+    <string name="nc_no">Нет</string>
+    <string name="nc_details">Подробности</string>
+    <string name="nc_certificate_error">Заданные параметры SSL не позволяют подключиться</string>
+
+    <!-- Settings -->
+    <string name="nc_settings_proxy_title">Прокси-сервер</string>
+    <string name="nc_settings_proxy_type_title">Тип прокси-сервера</string>
+    <string name="nc_settings_proxy_host_title">Узел прокси-сервера</string>
+    <string name="nc_settings_proxy_port_title">Порт прокси-сервера</string>
+    <string name="nc_settings_use_credentials_title">Использовать учётные данные</string>
+    <string name="nc_settings_switch_account">Переключение учётных записей</string>
+    <string name="nc_settings_reauthorize">Выйти и снова войти в систему</string>
+    <string name="nc_client_cert_setup">Установка клиентского сертификата</string>
+    <string name="nc_client_cert_change">Изменение клиентского сертификата</string>
+    <string name="nc_settings_remove_account">Удалить учётную запись</string>
+    <string name="nc_settings_add_account">Добавить учётную запись</string>
+    <string name="nc_settings_wrong_account">Повторный вход может быть выполнен только в текущую учётную запись</string>
+    <string name="nc_settings_no_talk_installed">На сервере, к которому вы пытаетесь подключиться, не установлено приложение «Вызовы»</string>
+    <string name="nc_settings_account_updated">Вместо создания новой учётной записи было выполнено обновление существующей</string>
+    <string name="nc_account_scheduled_for_deletion">Учётная запись запланирована к удалению и не может быть использована</string>
+    <string name="nc_settings_notification_sounds">Звук уведомления</string>
+    <string name="nc_settings_no_ringtone">Нет звука</string>
+
+    <string name="nc_no_proxy">Не использовать прокси-сервер</string>
+    <string name="nc_username">Имя пользователя</string>
+    <string name="nc_password">Пароль</string>
+    <string name="nc_conversation_link">Ссылка на беседу</string>
+    <string name="nc_new_password">Новый пароль</string>
+    <string name="nc_wrong_password">Неправильный пароль</string>
+    <string name="nc_about">О программе</string>
+    <string name="nc_privacy">Конфиденциальность</string>
+    <string name="nc_get_source_code">Исходный код</string>
+    <string name="nc_license_title">Лицензия</string>
+    <string name="nc_license_summary">Открытое лицензионное соглашение GNU, версия 3</string>
+
+    <string name="nc_select_an_account">Выберите учётную запись</string>
+
+    <!-- Room menu -->
+    <string name="nc_start_conversation">Начать беседу</string>
+    <string name="nc_configure_room">Настроить беседу</string>
+    <string name="nc_leave">Покинуть беседу</string>
+    <string name="nc_rename">Переименовать разговор</string>
+    <string name="nc_set_password">Задать пароль</string>
+    <string name="nc_change_password">Изменить пароль</string>
+    <string name="nc_clear_password">Очистить пароль</string>
+    <string name="nc_share_link">Поделиться ссылкой</string>
+    <string name="nc_share_link_via">Поделиться ссылкой</string>
+    <string name="nc_make_call_public">Сделать беседу открытой</string>
+    <string name="nc_make_call_private">Сделать беседу личной</string>
+    <string name="nc_delete_call">Удалить беседу</string>
+    <string name="nc_new_conversation">Новая беседа</string>
+    <string name="nc_join_via_link">Присоединиться по ссылке</string>
+    <string name="nc_join_via_web">Присоединиться через веб</string>
+
+    <!-- Contacts -->
+    <string name="nc_select_contacts">Выбрать контакты</string>
+    <string name="nc_one_contact_selected">контакт выбран</string>
+    <string name="nc_more_contacts_selected">контакта(ов) выбрано</string>
+    <string name="nc_contacts_clear">Отчистить</string>
+    <string name="nc_contacts_done">Готово</string>
+
+    <!-- Permissions -->
+    <string name="nc_permissions">Для выполнения вызова или видеоконференции необходимо предоставить дополнительные разрешения этому приложению. Выберите «Разрешить» в открывшемся диалоге.</string>
+    <string name="nc_permissions_audio">Для выполнения вызова необходимо предоставить этому приложению доступ к микрофону. Выберите «Разрешить» в открывшемся диалоге.</string>
+    <string name="nc_permissions_video">Для выполнения видеовызова необходимо предоставить этому приложению доступ к камере. Выберите «Разрешить» в открывшемся диалоге.</string>
+    <string name="nc_camera_permission_permanently_denied">Для выполнения видеовызова требуется получение дополнительных системных разрешений. Разрешите приложению доступ к камере в системных настройках.</string>
+    <string name="nc_microphone_permission_permanently_denied">Для выполнения вызова требуется получение дополнительных системных разрешений. Разрешите приложению доступ к микрофону  в системных настройках.</string>
+    <string name="nc_permissions_settings">Открыть настройки</string>
+
+    <!-- Call -->
+    <string name="nc_connecting_call">Соединение...</string>
+    <string name="nc_incoming_call">Входящий звонок от</string>
+    <string name="nc_nick_guest">Гость</string>
+    <string name="nc_public_call">Начать открытую беседу</string>
+    <string name="nc_public_call_explanation">Открытые беседы позволяют приглашать участников при помощи специальной ссылки.</string>
+
+    <!-- Notification channels -->
+    <string name="nc_notification_channel">канал уведомлений %1$s на %2$s</string>
+    <string name="nc_notification_channel_calls">Способ уведомления о вызове</string>
+    <string name="nc_notification_channel_messages">Способ уведомления о сообщении</string>
+    <string name="nc_notification_channel_calls_description">Показывает входящие вызовы</string>
+    <string name="nc_notification_channel_messages_description">Показывает входящие сообщения</string>
+
+    <!-- Bottom sheet menu -->
+    <string name="nc_failed_to_perform_operation">Что-то пошло не так :(</string>
+    <string name="nc_failed_signaling_settings">Сервер не поддерживает вход в открытые беседы с мобильных устройств. Попробуйте войти присоединиться к беседе используя браузер на ПК.</string>
+    <string name="nc_all_ok_operation">Всё готово!</string>
+    <string name="nc_ok">ОК</string>
+    <string name="nc_call_name">Наименование беседы</string>
+    <string name="nc_proceed">Продолжить</string>
+    <string name="nc_call_name_is_same">Введённое имя не отличается от существующего</string>
+    <string name="nc_wrong_link">Ссылка на беседу более не действительна</string>
+    <string name="nc_share_text">Присоединиться к беседе в %1$s/index.php/call/%2$s</string>
+    <string name="nc_share_subject">%1$s приглашение</string>
+    <string name="nc_share_text_pass">\nПароль: %1$s</string>
+
+    <!-- Magical stuff -->
+    <string name="nc_push_to_talk"> PTT (нажми чтобы говорить)</string>
+    <string name="nc_push_to_talk_desc">Нажмите и удерживайте для использования PTT при отключенном микрофоне</string>
+    <string name="nc_store_short_desc">Личные видеовызовы и переписка с использованием собственного сервера.</string>
+    <string name="nc_configure_cert_auth">Выбор аутентификационного сертификата</string>
+    <string name="nc_change_cert_auth">Изменение аутентификационного сертификата</string>
+    <string name="nc_store_full_desc">Используйте Nextcloud Talk, чтобы иметь индивидуальные или групповые аудио- или видеовызовы, создавать или присоединяться к веб-конференциям и отправлять сообщения чата. Вся коммуникация полностью зашифрована и обслуживается вашим собственным сервером, обеспечивая максимальную степень конфиденциальности.
+
+Nextcloud Talk прост в использовании и всегда полностью бесплатный!
+
+Nextcloud Talk поддерживает:
+* Звуковые / видеозвонки HD (H.265)
+* Групповые и индивидуальные вызовы
+* Публичные веб-собрания и вебинары
+* Индивидуальный и групповой чат
+* Простое совместное использование экрана
+* Мобильные приложения для Android и iOS
+* Мобильные оповещения о звонках в чате
+* Интеграция с Nextcloud Файлы и Nextcloud Groupware
+* Полностью на месте, полностью Open Source
+* Сквозные зашифрованные вызовы
+* Масштабирование до миллионов пользователей
+* SIP-шлюз: звоните с обычных телефонов
+
+Приложение Nextcloud Talk требует, чтобы сервер Nextcloud Talk функционировал. Nextcloud - это частная, самостоятельная платформа для синхронизации и обмена данными, предназначенная для того, чтобы вернуть вам контроль над вашими данными. Он работает на сервере по вашему выбору, будь то дома, у хостера или в датацентре или на вашем предприятии и дает вам доступ к вашим документам, календарям, контактам, электронной почте и другим данным. Вы можете работать вместе и/или делиться документами с другими людьми даже на разных серверах Nextcloud. Nextcloud имеет полностью открытый исходный код, предоставляя вам возможность расширять его функциональность для собственного использования, участвовать в его разработке или просто проверять, что он делает то, что мы обещаем.
+
+Миллионы пользователей ежедневно используют Nextcloud на предприятиях и домах по всему миру. Бизнес-пользователи полагаются на профессиональную поддержку Nextcloud GmbH, убедившись, что у них есть полностью поддерживаемая корпоративная платформа для повышения производительности и совместной работы, полностью контролируемая их ИТ-отделом.
+
+Узнайте больше: https://nextcloud.com/talk
+
+Найти Nextcloud можно тут: https://nextcloud.com</string>
+
+    <!-- Chat -->
+    <string name="nc_hint_enter_a_message">Напишите сообщение…</string>
+    <string name="nc_date_header_yesterday">Вчера</string>
+    <string name="nc_date_header_today">Сегодня</string>
+    <string name="nc_conversation_menu_voice_call">Голосовой вызов</string>
+    <string name="nc_conversation_menu_video_call">Видеозвонок</string>
+    <string name="nc_new_messages">Новые сообщения</string>
+
+    <!-- Contacts endless loading -->
+    <string name="nc_no_more_load_retry">Все объекты загружены. Попробуйте обновить.</string>
+    <string name="nc_endless_disabled">Достигнут предел количества загрузки объектов.</string>
+    <string name="nc_endless_cancel">Прервано пользователем</string>
+    <string name="nc_endless_error">Ошибка загрузки дополнительных объектов.</string>
+
+    <!-- Content descriptions -->
+    <string name="nc_description_more_menu_one_to_one">Меню для беседы с %1$s</string>
+    <string name="nc_description_more_menu_public">Меню для групповой беседы %1$s</string>
+    <string name="nc_description_more_menu_group">Меню для общей беседы %1$s</string>
+    <string name="nc_description_send_message_button">Отправить сообщение</string>
+
+    <string name="nc_hello">Привет</string>
+
+</resources>

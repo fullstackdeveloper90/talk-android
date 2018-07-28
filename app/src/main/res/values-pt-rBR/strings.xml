@@ -1,0 +1,193 @@
+<resources>
+    <!-- Bottom Navigation -->
+    <string name="nc_bottom_navigation_title_conversations">Conversas</string>
+    <string name="nc_bottom_navigation_title_contacts">Contatos</string>
+    <string name="nc_bottom_navigation_title_settings">Configurações</string>
+
+    <!-- Server selection -->
+    <string name="nc_server_url">Endereço do servidor</string>
+    <string name="nc_server_not_installed">Termine sua instalação %1$s</string>
+    <string name="nc_server_db_upgrade_needed">Atualize seu banco de dados %1$s</string>
+    <string name="nc_server_maintenance">Coloque sua %1$s em manutenção</string>
+    <string name="nc_server_version">%1$s somente funciona com%2$s 13 e acima</string>
+    <string name="nc_server_import_account_plain">Importar conta</string>
+    <string name="nc_server_import_accounts_plain">Importar contas</string>
+    <string name="nc_server_import_account">Importar conta do aplicativo %1$s</string>
+    <string name="nc_server_import_accounts">Importar contas do aplicativo %1$s</string>
+    <string name="nc_server_failed_to_import_account">Falha ao importar a conta</string>
+    <string name="nc_Server_account_imported">A conta selecionada foi importada e está disponível</string>
+    <string name="nc_get_from_provider">Não tem servidor ainda?\nClique aqui para obter um</string>
+
+    <!-- Account verification -->
+    <string name="nc_display_name_fetched">Nome de exibição obtido</string>
+    <string name="nc_push_disabled">Notificações push desativadas</string>
+    <string name="nc_capabilities_failed">Falhou ao buscar recursos, interrompendo</string>
+    <string name="nc_display_name_not_fetched">Nome de exibição não obtido, interrompendo</string>
+    <string name="nc_nextcloud_talk_app_installed">%1$s aplicativo encontrado</string>
+    <string name="nc_nextcloud_talk_app_not_installed">Aplicativo %1$s não instalado no servidor, cancelando</string>
+    <string name="nc_display_name_stored">Nome de exibição armazenado</string>
+    <string name="nc_display_name_not_stored">Não foi possível armazenar o nome de exibição, cancelando</string>
+
+    <string name="nc_never">Nunca juntado</string>
+    <string name="nc_search">Persquisar</string>
+
+    <string name="nc_certificate_dialog_title">Confira o certificado</string>
+    <string name="nc_certificate_dialog_text">Quer confiar em um certificado SSL desconhecido, emitido por %1$s para %2$s, válido de %3$s a %4$s?</string>
+    <string name="nc_yes">Sim</string>
+    <string name="nc_no">Não</string>
+    <string name="nc_details">Detalhes</string>
+    <string name="nc_certificate_error">Sua configuração SSL impediu a conexão</string>
+
+    <!-- Settings -->
+    <string name="nc_settings_proxy_title">Proxy</string>
+    <string name="nc_settings_proxy_type_title">Tipo de Proxy</string>
+    <string name="nc_settings_proxy_host_title">Endereço do proxy</string>
+    <string name="nc_settings_proxy_port_title">Porta do proxy</string>
+    <string name="nc_settings_use_credentials_title">Usar autenticação</string>
+    <string name="nc_settings_switch_account">Alternar entre contas</string>
+    <string name="nc_settings_reauthorize">Reautorizar</string>
+    <string name="nc_client_cert_setup">Configurar certificado do cliente</string>
+    <string name="nc_client_cert_change">Alterar certificado do cliente</string>
+    <string name="nc_settings_remove_account">Excluir conta</string>
+    <string name="nc_settings_add_account">Adicionar uma conta</string>
+    <string name="nc_settings_wrong_account">Somente a conta atual pode ser reautorizada</string>
+    <string name="nc_settings_no_talk_installed">O aplicativo Talk não está instalado no servidor que você tentou usar</string>
+    <string name="nc_settings_account_updated">Sua conta atual foi atualizada, em vez de adicionar uma nova</string>
+    <string name="nc_account_scheduled_for_deletion">A conta está agendada para exclusão e não pode ser alterada</string>
+    <string name="nc_settings_notification_sounds">Sons de notificação</string>
+    <string name="nc_settings_call_ringtone">Chamadas privadas</string>
+    <string name="nc_settings_message_ringtone">Outro</string>
+    <string name="nc_settings_no_ringtone">Sem som</string>
+
+    <string name="nc_no_proxy">Sem proxy</string>
+    <string name="nc_username">Usuário</string>
+    <string name="nc_password">Senha</string>
+    <string name="nc_conversation_link">Link de conversação</string>
+    <string name="nc_new_password">Nova senha</string>
+    <string name="nc_wrong_password">Senha incorreta</string>
+    <string name="nc_about">Sobre</string>
+    <string name="nc_privacy">Privacidade</string>
+    <string name="nc_get_source_code">Obtenha o código fonte</string>
+    <string name="nc_license_title">Licença</string>
+    <string name="nc_license_summary">GNU General Public License, Versão 3</string>
+
+    <string name="nc_select_an_account">Selecionar uma conta</string>
+
+    <!-- Room menu -->
+    <string name="nc_start_conversation">Iniciar uma conversa</string>
+    <string name="nc_configure_room">Configurar uma conversa</string>
+    <string name="nc_leave">Sair da conversa</string>
+    <string name="nc_rename">Renomear conversa</string>
+    <string name="nc_set_password">Definir uma senha</string>
+    <string name="nc_change_password">Alterar a senha</string>
+    <string name="nc_clear_password">Excluir a senha</string>
+    <string name="nc_share_link">Compartilhar um link</string>
+    <string name="nc_share_link_via">Compartilhar link via</string>
+    <string name="nc_make_call_public">Fazer esta conversa pública</string>
+    <string name="nc_make_call_private">Fazer esta conversa privada</string>
+    <string name="nc_delete_call">Excluir conversa</string>
+    <string name="nc_new_conversation">Nova conversa</string>
+    <string name="nc_join_via_link">Juntar-se via link</string>
+    <string name="nc_join_via_web">Juntar-se via web</string>
+
+    <!-- Contacts -->
+    <string name="nc_select_contacts">Selecionar contatos</string>
+    <string name="nc_one_contact_selected">contato selecionado</string>
+    <string name="nc_more_contacts_selected">contatos selecionados</string>
+    <string name="nc_contacts_clear">Limpar</string>
+    <string name="nc_contacts_done">Concluído</string>
+
+    <!-- Permissions -->
+    <string name="nc_permissions">As permissões devem ser concedidas para estabelecer uma chamada de vídeo e/ou áudio. Clique em \"PERMITIR\" na próxima caixa de diálogo do sistema.</string>
+    <string name="nc_permissions_audio">A permissão do microfone precisa ser concedida para permitir chamadas de áudio. Clique em \"PERMITIR\" na próxima caixa de diálogo do sistema.</string>
+    <string name="nc_permissions_video">A permissão da câmera precisa ser concedida para ativar as chamadas de vídeo. Clique em \"PERMITIR\" na próxima caixa de diálogo do sistema.</string>
+    <string name="nc_camera_permission_permanently_denied">Para habilitar a comunicação por vídeo, conceda a permissão \"Câmera\" nas configurações do sistema.</string>
+    <string name="nc_microphone_permission_permanently_denied">Para habilitar a comunicação por voz, conceda a permissão \"Microfone\" nas configurações do sistema.</string>
+    <string name="nc_permissions_settings">Abrir as configurações</string>
+
+    <!-- Call -->
+    <string name="nc_connecting_call">Conectando...</string>
+    <string name="nc_incoming_call">Chamada de</string>
+    <string name="nc_nick_guest">Convidado</string>
+    <string name="nc_public_call">Nova conversa pública</string>
+    <string name="nc_public_call_explanation">Conversas públicas permitem que você convide pessoas de fora
+       via um link especialmente criado.</string>
+
+    <!-- Notification channels -->
+    <string name="nc_notification_channel">%1$s no canal de notificação %2$s</string>
+    <string name="nc_notification_channel_calls">Chamadas do canal de notificação</string>
+    <string name="nc_notification_channel_messages">Mensagens do canal de notificação</string>
+    <string name="nc_notification_channel_calls_description">Mostrar chamadas recebidas</string>
+    <string name="nc_notification_channel_messages_description">Mostrar mensagens recebidas</string>
+
+    <!-- Bottom sheet menu -->
+    <string name="nc_failed_to_perform_operation">Desculpe, alguma coisa deu errada!</string>
+    <string name="nc_failed_signaling_settings">O servidor de destino não suporta a participação em conversas públicas
+      via celulares. Você pode tentar entrar na conversa via navegador.</string>
+    <string name="nc_all_ok_operation">OK, tudo pronto!</string>
+    <string name="nc_ok">OK</string>
+    <string name="nc_call_name">Nome de conversação</string>
+    <string name="nc_proceed">Prosseguir</string>
+    <string name="nc_call_name_is_same">O nome que você inseriu é o mesmo que o existente</string>
+    <string name="nc_wrong_link">O link de conversação não é válido</string>
+    <string name="nc_share_text">Junte-se à conversa em %1$s/index.php/call/%2$s</string>
+    <string name="nc_share_subject">%1$s convite</string>
+    <string name="nc_share_text_pass">\nSenha: %1$s</string>
+
+    <!-- Magical stuff -->
+    <string name="nc_push_to_talk">Pressione-para-falar</string>
+    <string name="nc_push_to_talk_desc">Com o microfone desativado, clique&amp; para usar Pressione-para-falar</string>
+    <string name="nc_store_short_desc">Tenha um chat com chamadas de vídeo privadas usando seu próprio servidor.</string>
+    <string name="nc_configure_cert_auth">Selecionar certificado de autenticação</string>
+    <string name="nc_change_cert_auth">Alterar certificado de autenticação</string>
+    <string name="nc_store_full_desc">Use o Nextcloud Talk para realizar chamadas individuais ou em grupo de áudio ou vídeo, criar ou participar de conferências online e enviar mensagens de bate-papo. Toda a comunicação é totalmente criptografada e mediada por seu próprio servidor, proporcionando o mais alto grau de privacidade possível.
+
+O Nextcloud Talk é fácil de usar e será sempre grátis!
+
+O Nextcloud Talk suporta:
+* Chamadas de áudio/vídeo HD (H.265)
+* Chamadas individuais ou em grupo
+* Webinários &amp; públicos na web
+* Bate-papo individual e em grupo
+* Compartilhamento fácil de tela
+* Aplicativos para Android e iOS
+* Chamadas móveis &amp; notificações push de bate-papo (se instalado a partir do Google Play)
+* Integração com Nextcloud Files e Nextcloud Groupware
+* Completamente de código aberto e auto-hospedado
+* Chamadas Criptografadas de ponta-a-ponta
+* Suporte para milhões de usuários
+* SIP gate: discar no telefone
+
+O aplicativo Nextcloud Talk requer um servidor Nextcloud Talk para funcionar. Nextcloud é uma plataforma privada de sincronização e comunicação de arquivos auto-hospedada, projetada para colocar você de volta no controle de seus dados. Ele é executado em um servidor de sua escolha, seja em casa, em um provedor de serviços ou em sua empresa, e fornece acesso a documentos, calendários, contatos, e-mail e outros dados. Você pode compartilhar com outras pessoas, mesmo em diferentes servidores Nextcloud e trabalharem juntos em documentos. O Nextcloud é totalmente open source, dando a você a opção de estendê-los para seu próprio uso, participar de seu desenvolvimento ou simplesmente verificar se ele cumpre o que promete.
+
+Milhões de usuários usam o Nextcloud diariamente em empresas e residências no mundo todo. Os usuários corporativos contam com o suporte profissional da Nextcloud GmbH, garantindo que eles tenham uma plataforma pronta total produtividade e colaboração, totalmente sob controle do departamento de TI.
+
+Saiba mais em https://nextcloud.com/talk
+
+Encontre o Nextcloud em https://nextcloud.com</string>
+
+    <!-- Chat -->
+    <string name="nc_hint_enter_a_message">Digite uma mensagem...</string>
+    <string name="nc_date_header_yesterday">Ontem</string>
+    <string name="nc_date_header_today">Hoje</string>
+    <string name="nc_conversation_menu_voice_call">Chamada de voz</string>
+    <string name="nc_conversation_menu_video_call">Chamada de vídeo</string>
+    <string name="nc_new_messages">Novas mensagens</string>
+
+    <!-- Contacts endless loading -->
+    <string name="nc_no_more_load_retry">Não há mais itens a carregar. Atualize para retentar.</string>
+    <string name="nc_endless_disabled">Não há mais itens a carregar (máx alcançado).</string>
+    <string name="nc_endless_cancel">Cancelado pelo usuário.</string>
+    <string name="nc_endless_error">Ocorreu um erro ao carregar mais itens.</string>
+
+    <!-- Content descriptions -->
+    <string name="nc_description_more_menu_one_to_one">Menu para conversa com %1$s</string>
+    <string name="nc_description_more_menu_public">Menu para conversa em grupo %1$s</string>
+    <string name="nc_description_more_menu_group">Menu para conversa pública %1$s</string>
+    <string name="nc_description_send_message_button">Enviar mensagem</string>
+
+    <!-- Chat empty state -->
+    <string name="nc_chat_empty">Toque para ser o primeiro a dizer %1$s!</string>
+    <string name="nc_hello">Olá</string>
+
+</resources>

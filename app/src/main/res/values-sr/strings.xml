@@ -1,0 +1,167 @@
+<resources>
+    <!-- Bottom Navigation -->
+    <string name="nc_bottom_navigation_title_conversations">Разговори</string>
+    <string name="nc_bottom_navigation_title_contacts">Контакти</string>
+    <string name="nc_bottom_navigation_title_settings">Поставке</string>
+
+    <!-- Server selection -->
+    <string name="nc_server_url">Адреса сервера</string>
+    <string name="nc_server_not_installed">Довршите своју %1$s инсталацију</string>
+    <string name="nc_server_db_upgrade_needed">Ажурирајте своју %1$s базу</string>
+    <string name="nc_server_maintenance">Прекините %1$s режим одржавања</string>
+    <string name="nc_server_version">%1$s ради само са%2$s верзије 13 и већом</string>
+    <string name="nc_server_import_account_plain">Увези налог</string>
+    <string name="nc_server_import_accounts_plain">Увези налоге</string>
+    <string name="nc_server_import_account">Увези налог из апликације %1$s</string>
+    <string name="nc_server_import_accounts">Увези налоге из апликације %1$s</string>
+    <string name="nc_server_failed_to_import_account">Грешка при учитавању одабраног налога</string>
+    <string name="nc_Server_account_imported">Одабрани налог је сада увезен и доступан</string>
+    <string name="nc_get_from_provider">Имате ли сервер?nКликните овде да направите један код провајдера</string>
+
+    <!-- Account verification -->
+    <string name="nc_display_name_fetched">Име за приказ добављено</string>
+    <string name="nc_push_disabled">Брза обавештења су искључена</string>
+    <string name="nc_capabilities_failed">Грешка приликом дохватања могућности, прекидам</string>
+    <string name="nc_display_name_not_fetched">Име за приказ се не може добавити. Прекидам</string>
+    <string name="nc_nextcloud_talk_app_installed">%1$s апликација нађено</string>
+    <string name="nc_nextcloud_talk_app_not_installed">%1$s апликација није инсталирана на серверу, прекидам</string>
+    <string name="nc_display_name_stored">Име за приказ сачувано</string>
+    <string name="nc_display_name_not_stored">Не могу да сачувам име за приказ. Прекидам</string>
+
+    <string name="nc_never">Никад придружен</string>
+    <string name="nc_search">Тражи</string>
+
+    <string name="nc_certificate_dialog_title">Провери сертификат</string>
+    <string name="nc_certificate_dialog_text">Да ли верујете, до сада непознатом, SSL сертификату, који је издао %1$s на %2$s, валидним од %3$s до %4$s?</string>
+    <string name="nc_yes">Да</string>
+    <string name="nc_no">Не</string>
+    <string name="nc_details">Детаљи</string>
+    <string name="nc_certificate_error">Ваша ССЛ постава је онемогућила повезивање</string>
+
+    <!-- Settings -->
+    <string name="nc_settings_proxy_title">Посредник</string>
+    <string name="nc_settings_proxy_type_title">Тип посредника</string>
+    <string name="nc_settings_proxy_host_title">Домаћин</string>
+    <string name="nc_settings_proxy_port_title">Порт посредника</string>
+    <string name="nc_settings_use_credentials_title">Користи акредитиве</string>
+    <string name="nc_settings_switch_account">Пребацивање између налога</string>
+    <string name="nc_settings_reauthorize">Понови ауторизацију</string>
+    <string name="nc_client_cert_setup">Подесите клијентски сертификат</string>
+    <string name="nc_client_cert_change">Измени клијентски сертификат</string>
+    <string name="nc_settings_remove_account">Уклони налог</string>
+    <string name="nc_settings_add_account">Додај нови налог</string>
+    <string name="nc_settings_wrong_account">Само тренутни налог се може поново ауторизовати</string>
+    <string name="nc_settings_no_talk_installed">Апликација Ћаскања није инсталирана на серверу на који се пријављујете</string>
+    <string name="nc_settings_account_updated">Ваш постојећи налог је ажуриран, уместо што је додат нови налог</string>
+    <string name="nc_account_scheduled_for_deletion">Налогу је заказано брисање и то не може да се промени</string>
+    <string name="nc_settings_notification_sounds">Звуци обавештења</string>
+    <string name="nc_settings_call_ringtone">Позиви један-на-један</string>
+    <string name="nc_settings_message_ringtone">Остали</string>
+    <string name="nc_settings_no_ringtone">Нема звука</string>
+
+    <string name="nc_no_proxy">Без посредника</string>
+    <string name="nc_username">Корисничко име</string>
+    <string name="nc_password">Лозинка</string>
+    <string name="nc_conversation_link">Веза ка разговору</string>
+    <string name="nc_new_password">Нова лозинка</string>
+    <string name="nc_wrong_password">Погрешна лозинка</string>
+    <string name="nc_about">О програму</string>
+    <string name="nc_privacy">Приватност</string>
+    <string name="nc_get_source_code">Изворни кôд</string>
+    <string name="nc_license_title">Лиценца</string>
+    <string name="nc_license_summary">ГНУ општа јавна лиценца, верзија 3</string>
+
+    <string name="nc_select_an_account">Изаберите налог</string>
+
+    <!-- Room menu -->
+    <string name="nc_start_conversation">Започни разговор</string>
+    <string name="nc_configure_room">Подеси разговор</string>
+    <string name="nc_leave">Напусти разговор</string>
+    <string name="nc_rename">Преименуј разговор</string>
+    <string name="nc_set_password">Постави лозинку</string>
+    <string name="nc_change_password">Измени лозинку</string>
+    <string name="nc_clear_password">Очисти лозинку</string>
+    <string name="nc_share_link">Подели везу</string>
+    <string name="nc_share_link_via">Подели везу преко</string>
+    <string name="nc_make_call_public">Учини разговор јавним</string>
+    <string name="nc_make_call_private">Учини разговор приватним</string>
+    <string name="nc_delete_call">Обриши разговор</string>
+    <string name="nc_new_conversation">Нови разговор</string>
+    <string name="nc_join_via_link">Придружи се преко везе</string>
+    <string name="nc_join_via_web">Придружи се преко веба</string>
+
+    <!-- Contacts -->
+    <string name="nc_select_contacts">Одаберите контакт</string>
+    <string name="nc_one_contact_selected">контакт означен</string>
+    <string name="nc_more_contacts_selected">контакта означено</string>
+    <string name="nc_contacts_clear">Очисти</string>
+    <string name="nc_contacts_done">Готово</string>
+
+    <!-- Permissions -->
+    <string name="nc_permissions">Да бисте успоставили видео или аудио позив, морате одобрити неке дозволе. Молимо кликните \"Дозволи\" на следећем системском дијалогу.</string>
+    <string name="nc_permissions_audio">Да бисте успоставили аудио позив, морате одобрити дозволе за коришћење микрофона. Молимо кликните \"Дозволи\" на следећем системском дијалогу.</string>
+    <string name="nc_permissions_video">Да бисте успоставили видео позив, морате одобрити дозволе за коришћење камере. Молимо кликните \"Дозволи\" на следећем системском дијалогу.</string>
+    <string name="nc_camera_permission_permanently_denied">Да бисте омогућили видео комуникацију, дозволите приступ камери у системским поставкама.</string>
+    <string name="nc_microphone_permission_permanently_denied">Да бисте омогућили аудио комуникацију, дозволите приступ микрофону у системским поставкама.</string>
+    <string name="nc_permissions_settings">Отвори поставке</string>
+
+    <!-- Call -->
+    <string name="nc_connecting_call">Повезујем се…</string>
+    <string name="nc_incoming_call">Долазни позив од</string>
+    <string name="nc_nick_guest">Гост</string>
+    <string name="nc_public_call">Нови јавни разговор</string>
+    <string name="nc_public_call_explanation">Јавни разговори Вам дозвољавају да позовете људе споља кроз
+        специјално направљену везу за њих.</string>
+
+    <!-- Notification channels -->
+    <string name="nc_notification_channel">%1$s на каналу за обавештење о %2$s</string>
+    <string name="nc_notification_channel_calls">Канал обавештења о позивима</string>
+    <string name="nc_notification_channel_messages">Канал обавештења о порукама</string>
+    <string name="nc_notification_channel_calls_description">Прикажи долазне позиве</string>
+    <string name="nc_notification_channel_messages_description">Прикажи долазне поруке</string>
+
+    <!-- Bottom sheet menu -->
+    <string name="nc_failed_to_perform_operation">Извињавамо се, нешто је пошло наопако!</string>
+    <string name="nc_failed_signaling_settings">Одредишни сервер не подржава придруживање јавним собама преко мобилног телефона.
+        Можете пробати да се придружите разговору преко веб читача.</string>
+    <string name="nc_all_ok_operation">У реду, све готово!</string>
+    <string name="nc_ok">У реду</string>
+    <string name="nc_call_name">Назив разговора</string>
+    <string name="nc_proceed">Настави</string>
+    <string name="nc_call_name_is_same">Име које сте унели је исто као и тренутно</string>
+    <string name="nc_wrong_link">Веза разговора није исправна</string>
+    <string name="nc_share_text">Придружи се разговору на%1$s/index.php/call/%2$s</string>
+    <string name="nc_share_subject">%1$s позивница</string>
+    <string name="nc_share_text_pass">\nЛозинка: %1$s</string>
+
+    <!-- Magical stuff -->
+    <string name="nc_push_to_talk">Притисни за разговор</string>
+    <string name="nc_push_to_talk_desc">Са онемогућеним микрофоном, кликните &amp; држите да користите притисак за разговор</string>
+    <string name="nc_store_short_desc">Обављајте приватне видео позиве и ћаскајте користећи Ваш сервер.</string>
+    <string name="nc_configure_cert_auth">Одабери сертификат за пријаву</string>
+    <string name="nc_change_cert_auth">Измени сертификат за пријаву</string>
+    <!-- Chat -->
+    <string name="nc_hint_enter_a_message">Унесите поруку…</string>
+    <string name="nc_date_header_yesterday">Јуче</string>
+    <string name="nc_date_header_today">Данас</string>
+    <string name="nc_conversation_menu_voice_call">Аудио позив</string>
+    <string name="nc_conversation_menu_video_call">Видео позив</string>
+    <string name="nc_new_messages">Нове поруке</string>
+
+    <!-- Contacts endless loading -->
+    <string name="nc_no_more_load_retry">Нема више контаката. Освежите да пробате поново.</string>
+    <string name="nc_endless_disabled">Нема више ставки за учитавање (достигнут максимум).</string>
+    <string name="nc_endless_cancel">Прекинуо корисник</string>
+    <string name="nc_endless_error">Десила се грешка приликом учитавања још ставки.</string>
+
+    <!-- Content descriptions -->
+    <string name="nc_description_more_menu_one_to_one">Мени разговора са корисником %1$s</string>
+    <string name="nc_description_more_menu_public">Мени групног разговора %1$s</string>
+    <string name="nc_description_more_menu_group">Мени јавног разговора %1$s</string>
+    <string name="nc_description_send_message_button">Пошаљи поруку</string>
+
+    <!-- Chat empty state -->
+    <string name="nc_chat_empty">Тапните да будете први који ће рећи %1$s!</string>
+    <string name="nc_hello">Здраво</string>
+
+</resources>
